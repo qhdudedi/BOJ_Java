@@ -12,7 +12,7 @@ class Main {
 		    st = new StringTokenizer(br.readLine());
 		    a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
-			bw.write("Case #"+(i+1)+": "+a + " + " + b +" = "+ (a+b) + "\n");
+			bw.write("Case #"+(i+1)+": "+ a + " + " + b +" = "+ (a+b) + "\n");
 		}
 		br.close();
 			
