@@ -1,8 +1,7 @@
-
+package ch04;
 import java.util.*;
 
-public class Main
-{
+public class b_1546 {
 	public static void main(String[] args) {
 	    Scanner s = new Scanner(System.in);
 	    int n = s.nextInt();
@@ -14,15 +13,14 @@ public class Main
 	        arr[i] = s.nextDouble();
 	        if(arr[i] > max){
 	            max = arr[i];
-	        } 
-	        System.out.println(max);
-	        
-	        for(i=0; i<arr.length; i++){
-	            arr[i] = arr[i]/max*100;
-	            sum += arr[i];
 	        }
 	    }
+	    for(int i=0; i<arr.length; i++){
+            arr[i] = arr[i]/max*100;
+            sum += arr[i];
+        }
 	    double avg = sum /n;
 	    System.out.println(avg);
 	}
+
 }
