@@ -1,2 +1,2 @@
-# BOJ_Java (백준)
+# BOJ_Java
 https://www.acmicpc.net/ 
